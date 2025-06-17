@@ -1,4 +1,5 @@
 🏡 House Construction Website
+
 Welcome to the **Dream House Website** project! This web application showcases modern construction services, designs, and project management tools tailored for residential building projects.
 
 ---
@@ -18,7 +19,7 @@ Welcome to the **Dream House Website** project! This web application showcases m
 
 ---
 
-## 🛠️ To Develope 
+## 🛠️ To Develop 
 
 - **Frontend**: HTML5, CSS3,
 - **Framework**: Bootstrap
