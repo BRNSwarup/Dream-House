@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&family=Dosis:wght@200..800&family=Inclusive+Sans:ital@0;1&family=Lexend:wght@100..900&family=Madimi+One&family=Playfair+Display:ital,wght@0,600;1,600&family=Righteous&family=Roboto:wght@500&display=swap');
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #ffbf69;
+}
+
+.navbar-brand {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.navbar-brand span {
+    color: #ff9f1c;
+}
+
+.container-fluid {
+    margin: 0%;
+    padding: 0%;
+    width: 99vw;
+}
+
+.carousel-item img {
+    height: 95vh;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+@media only screen and (max-width:1020px) {
+    .carousel-caption {
+        bottom: 400px;
+    }
+
+}
+
+
+@media only screen and (min-width:375px) {
+    .carousel-caption {
+        bottom: 200px;
+    }
+
+}
+
+@media only screen and (min-width:360px) {
+    .carousel-caption {
+        bottom: 200px;
+    }
+
+}
+
+@media only screen and (min-width:617px) and (max-width:1244px) {
+    .carousel-caption {
+        bottom: 350px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .carousel-caption {
+        bottom: 230px;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption {
+        bottom: 440px;
+
+    }
+
+    .carousel-caption h5 {
+        font-size: 25px;
+        letter-spacing: 0px;
+
+    }
+
+}
+
+
+/* About us section */
+
+.d-flex {
+
+    margin: 2rem;
+
+    align-items: center;
+}
+
+.d-flex img {
+    height: 300px;
+    width: 500px;
+}
+
+.text {
+    text-align: justify;
+}
+
+
+@media (max-width: 848px) {
+    .d-flex {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+
+    .d-flex img {
+        margin-left: 40px;
+
+    }
+
+    .text {
+        padding-left: 0%;
+        padding: 0%;
+        margin-bottom: 0%;
+    }
+}
+
+
+@media (max-width: 647px) {
+    .d-flex img {
+        height: 200px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 530px) {
+    .d-flex img {
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 1228px) {
+    .card-row {
+        justify-content: center;
+    }
+
+    .card {
+        margin: 20px;
+    }
+}
+
+
+@media (max-width: 531px) {
+    .card-row {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:768px) {
+    .ourteam-card {
+        padding-left: 17%;
+    }
+}
+
+
+@media (max-width:412px) {
+    .ourteam-card {
+
+        padding-left: 8%;
+    }
+}
